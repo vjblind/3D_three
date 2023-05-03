@@ -63,7 +63,7 @@ const sound1 = new PositionalAudio( listener );
 const songElement = document.getElementById( 'song' );
 sound1.setMediaElementSource( songElement );
 sound1.setRefDistance( 20 );
-sound1.setLoop( true );
+songElement.setLoop= true  ;
 songElement.play();
 mesh1.add( sound1 );
 
